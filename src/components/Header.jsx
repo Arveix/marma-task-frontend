@@ -106,7 +106,7 @@ function Header() {
                     <img
                         src={Logo}
                         alt="Company logo"
-                        className="h-12 w-12"
+                        className="h-8 w-8 md:h-12 md:w-12"
                     />
                 </div>
 
