@@ -115,7 +115,7 @@ function Header() {
                     </span>
                 </div>
 
-                <div className="flex items-center justify-end gap-4">
+                <div className="flex items-center justify-end gap-2 lg:gap-4">
                     <button aria-label="Search">
                         <img
                             src={SearchIcon}
