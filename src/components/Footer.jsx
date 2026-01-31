@@ -1,6 +1,8 @@
 function Footer() {
     return (
-        <h1>Footer</h1>
+        <div className="flex items-center justify-center">
+            <h1 className="text-5xl font-white text-bold">Footer</h1>
+        </div>
     )
 }
 

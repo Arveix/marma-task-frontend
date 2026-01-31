@@ -111,7 +111,7 @@ function Header() {
                 </div>
 
                 <div className="text-center">
-                    <span className="text-4xl font-bold">
+                    <span className="text-2xl lg:text-4xl font-bold">
                         LOGO
                     </span>
                 </div>
