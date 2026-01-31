@@ -29,7 +29,7 @@ function Header() {
                         <img
                             src={MenuIcon}
                             alt="Menu"
-                            className="w-6 h-6"
+                            className="w-8 h-8"
                         />
                     </button>
                     {isOpen && (
@@ -39,7 +39,6 @@ function Header() {
                         />
                     )}
 
-                    {/* Drawer */}
                     {isOpen && (
                         <aside className="fixed inset-0 bg-white sm:inset-y-0 sm:left-0 sm:w-72 flex flex-col justify-between">
                             {/* Top */}
