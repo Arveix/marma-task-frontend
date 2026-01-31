@@ -2,7 +2,7 @@ import { useState } from 'react'
 import MenuIcon from '../assets/images/icons/hamburger_menu.svg'
 import Logo from '../assets/images/company_logo.svg'
 import SearchIcon from '../assets/images/icons/search_icon.svg'
-import FavouriteOutline from '../assets/images/icons/favourite_outline.svg'
+import HeartIcon from '../assets/images/icons/heart_icon.svg'
 import CartIcon from '../assets/images/icons/cart_icon.svg'
 import CloseIcon from '../assets/images/icons/close_icon.svg'
 import ProfileIcon from '../assets/images/icons/profile_icon.svg'
@@ -126,7 +126,7 @@ function Header() {
 
                     <button aria-label="Wishlist">
                         <img
-                            src={FavouriteOutline}
+                            src={HeartIcon}
                             alt="Wishlist"
                             className="w-6 h-6"
                         />
