@@ -25,18 +25,11 @@ function ProductGrid() {
         <>
             <section className="mx-auto w-full py-8">
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 grid-row-auto gap-4 p-4 lg:gap-6 lg:p-0">
-                    {/* {
+                    {
                         products.map((product) => {
                             return <ProductCard key={product.name} name={product.name} price={product.price} stock={product.stock}/>
                         })
-                    } */}
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
-                    <ProductCard />
+                    }
                 </div>
             </section>
         </>
