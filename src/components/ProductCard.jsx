@@ -23,7 +23,7 @@ function ProductCard({name, price, stock}) {
                     {/* <h3 className='text-lg font-bold col-span-7 col-start-1 col-end-8 row-start-1'>Product Name</h3> */}
                     <h3 className='text-lg font-bold col-span-7 col-start-1 col-end-8 row-start-1'>{name}</h3>
                     <p className='text-sm text-gray-400 col-span-8 col-start-1 col-end-9 row-start-2 md:col-span-7 mt-1'>
-                       <a href='#' className='underline' onClick={() => setIsSignedIn(true)}>Create an account</a> to see pricing
+                        <a href="#" className='underline'>Sign in</a> or <a href='#' className='underline'>Create an account</a> to see pricing
                     </p>
                     {/* Wishlist icon */}
                     <button
