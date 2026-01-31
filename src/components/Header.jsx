@@ -120,7 +120,7 @@ function Header() {
                         <img
                             src={SearchIcon}
                             alt="Search"
-                            className="w-6 h-6"
+                            className="w-8 h-8"
                         />
                     </button>
 
@@ -128,7 +128,7 @@ function Header() {
                         <img
                             src={HeartIcon}
                             alt="Wishlist"
-                            className="w-6 h-6"
+                            className="w-8 h-8"
                         />
                     </button>
 
@@ -136,7 +136,7 @@ function Header() {
                         <img
                             src={CartIcon}
                             alt="Cart"
-                            className="w-6 h-6"
+                            className="w-8 h-8"
                         />
                     </button>
 
@@ -144,7 +144,7 @@ function Header() {
                         <img
                             src={ProfileIcon}
                             alt="Profile"
-                            className="w-6 h-6"
+                            className="w-8 h-8"
                         />
                     </button>
 
